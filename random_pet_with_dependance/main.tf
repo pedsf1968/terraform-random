@@ -1,3 +1,6 @@
+# Simple local_file is dependent of the resource random_pet
+# change the filename with your own path on variables.tf
+
 resource "local_file" "pet" {
     filename = var.filename
     #content = "My favorite pet is Mrs.Whiskers"

@@ -1,3 +1,6 @@
+# variables declaration used by main terraform configuration
+# change the filename with your own path
+
 variable "length" {
     default = 10
   
