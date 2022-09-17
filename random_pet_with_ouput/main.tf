@@ -1,8 +1,7 @@
 # Use of output resources
-# change the filename with your own path on variables.tf
 
 resource "local_file" "pet" {
-   filename = var.filename
+   filename = local.filename
    content = "My favorite pet is ${random_pet.my-pet.id}"
 }
 

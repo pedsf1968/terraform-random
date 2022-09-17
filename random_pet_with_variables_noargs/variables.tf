@@ -1,5 +1,6 @@
 # no default value defined
 # terraform will ask values on apply command
+
 variable "filename" {
 }
 

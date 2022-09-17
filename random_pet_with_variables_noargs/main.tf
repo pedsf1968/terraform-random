@@ -1,5 +1,4 @@
 # Simple local_file and random_pet using variables without default value in separate file variables.tf
-# change the filename with your own path on variables.tf
 
 resource "local_file" "pet" {
     filename = var.filename
